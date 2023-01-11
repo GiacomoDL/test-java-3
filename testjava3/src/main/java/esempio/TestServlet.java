@@ -37,7 +37,7 @@ public class TestServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		logger.debug("start - doGet");
+		logger.debug("start - - doGet");
 		String messages = getMessagesString();
 		response.getWriter().append(messages);
 		logger.debug("end - doGet");
