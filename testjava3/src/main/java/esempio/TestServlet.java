@@ -38,6 +38,7 @@ public class TestServlet extends HttpServlet {
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		logger.debug("test Git");
+		logger.debug("test Git 2");
 		logger.debug("start - doGet");
 		String messages = getMessagesString();
 		response.getWriter().append(messages);
